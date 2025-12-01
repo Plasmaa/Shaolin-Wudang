@@ -1,16 +1,54 @@
-# React + Vite
+# Shaolin and Wudang Kung-Fu School Bangladesh
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Shaolin and Wudang](src/assets/teacher.jpg)
 
-Currently, two official plugins are available:
+Welcome to the official website of **Shaolin and Wudang Kung-Fu School Bangladesh**. This platform showcases our authentic martial arts training programs, expert instructors, and branch locations across Bangladesh.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
+**[Visit the Website](https://plasmaa.github.io/Shaolin-Wudang/)**
 
-## React Compiler
+## 🥋 About The School
+We are a proud branch of the International Wushu Federation Kung Fu Shaolin Wudang, dedicated to preserving and teaching the ancient arts of Shaolin and Wudang Kung Fu. Under the guidance of **GrandMaster Senna Shi De Feng** and **Instructor Md. Rezaul Karim**, we offer comprehensive training that blends tradition with modern discipline.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop devices.
+- **Modern UI/UX**: A premium dark and gold theme reflecting the martial arts aesthetic.
+- **Branch Locator**: Easy access to information about our 5 branches (Dhaka, Kishorgonj, Narshindi, Shunamganj, Cox's Bazar).
+- **Program Details**: Information on Shaolin Kung Fu, Tai Chi, Self Defense, and Kids programs.
+- **Instructor Profiles**: Meet our dedicated masters.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- **React**: For building a dynamic and interactive user interface.
+- **Vite**: For fast development and optimized production builds.
+- **Tailwind CSS**: For modern, utility-first styling.
+- **GitHub Pages**: For seamless deployment and hosting.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Plasmaa/Shaolin-Wudang.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Shaolin-Wudang
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 📄 License
+This project is licensed under the MIT License.
+
+---
+*Developed with ❤️ for the martial arts community.*
