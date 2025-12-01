@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-shaolin-gold: #d4af37;
+  --color-shaolin-dark: #1a1a1a;
+  --color-shaolin-black: #0f0f0f;
+  --font-sans: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--color-shaolin-black);
+  color: #f5f5f5;
+}
