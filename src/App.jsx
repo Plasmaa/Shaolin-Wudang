@@ -1,25 +1,22 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import AboutUs from './components/AboutUs';
-import WhyChooseUs from './components/WhyChooseUs';
-import Programs from './components/Programs';
-import Branches from './components/Branches';
 import Footer from './components/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
 
 function App() {
   return (
-    <div className="min-h-screen bg-shaolin-black font-sans text-white">
-      <Header />
-      <main>
-        <Hero />
-        <AboutUs />
-        <WhyChooseUs />
-        <Programs />
-        <Branches />
-      </main>
-      <Footer />
-    </div>
+    <Router basename="/Shaolin-Wudang">
+      <div className="min-h-screen bg-shaolin-black font-sans text-white">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
