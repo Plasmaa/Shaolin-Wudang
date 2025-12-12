@@ -34,7 +34,7 @@ const Hero = () => {
                 <p className="hidden md:block text-xl md:text-2xl text-gray-300 mb-10 max-w-3xl mx-auto font-light">
                     Master the ancient arts of body and mind. Join the premier Kung Fu academy in Bangladesh.
                 </p>
-                <div className="flex flex-col md:flex-row gap-4 justify-center">
+                <div className="flex flex-col md:flex-row gap-4 justify-center mt-96 md:mt-0">
                     <a href="#contact" className="px-8 py-4 bg-shaolin-gold text-shaolin-black font-bold text-lg rounded hover:bg-yellow-500 transition-colors duration-300 uppercase tracking-wide">
                         Start Training
                     </a>
