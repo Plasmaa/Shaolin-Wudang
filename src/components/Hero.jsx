@@ -27,11 +27,11 @@ const Hero = () => {
             </div>
 
             <div className="container mx-auto px-4 relative z-20 text-center">
-                <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-lg">
+                <h1 className="hidden md:block text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-lg">
                     <span className="block text-shaolin-gold mb-2">Shaolin & Wudang</span>
                     Kung Fu School
                 </h1>
-                <p className="text-xl md:text-2xl text-gray-300 mb-10 max-w-3xl mx-auto font-light">
+                <p className="hidden md:block text-xl md:text-2xl text-gray-300 mb-10 max-w-3xl mx-auto font-light">
                     Master the ancient arts of body and mind. Join the premier Kung Fu academy in Bangladesh.
                 </p>
                 <div className="flex flex-col md:flex-row gap-4 justify-center">
