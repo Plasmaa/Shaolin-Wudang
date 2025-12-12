@@ -13,7 +13,7 @@ const Hero = () => {
                 <img
                     src={teacherMobileImg}
                     alt="Master"
-                    className="w-full h-full object-cover object-right-top opacity-50"
+                    className="w-full h-full object-cover object-right-top opacity-100"
                 />
             </div>
 
@@ -22,7 +22,7 @@ const Hero = () => {
                 <img
                     src={teacherImg}
                     alt="Master"
-                    className="w-full h-full object-cover object-top opacity-50"
+                    className="w-full h-full object-cover object-top opacity-100"
                 />
             </div>
 
