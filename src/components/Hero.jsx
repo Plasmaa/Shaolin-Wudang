@@ -1,5 +1,6 @@
 import React from 'react';
-import teacherImg from '../assets/teacher.jpg'; // Defaulting to teacher.jpg if available, otherwise will fallback
+import teacherImg from '../assets/teacher.jpg';
+import teacherMobileImg from '../assets/teacher-mobile.png';
 
 const Hero = () => {
     return (
@@ -7,8 +8,17 @@ const Hero = () => {
             {/* Background Overlay */}
             <div className="absolute inset-0 bg-gradient-to-b from-shaolin-black/80 via-shaolin-black/60 to-shaolin-black z-10"></div>
 
-            {/* Background Image - Using one of the uploaded images as background */}
-            <div className="absolute inset-0 z-0">
+            {/* Background Image - Mobile */}
+            <div className="absolute inset-0 z-0 md:hidden">
+                <img
+                    src={teacherMobileImg}
+                    alt="Master"
+                    className="w-full h-full object-cover object-right-top opacity-50"
+                />
+            </div>
+
+            {/* Background Image - Desktop */}
+            <div className="absolute inset-0 z-0 hidden md:block">
                 <img
                     src={teacherImg}
                     alt="Master"
