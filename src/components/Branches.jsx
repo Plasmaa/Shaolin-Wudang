@@ -1,11 +1,12 @@
 import React from 'react';
 
 const branches = [
-    { name: 'Dhaka', address: 'Main Center, Dhaka', phone: '+880 1xxx-xxxxxx' },
-    { name: 'Kishorgonj', address: 'Town Hall Road, Kishorgonj', phone: '+880 1xxx-xxxxxx' },
-    { name: 'Narshindi', address: 'Station Road, Narshindi', phone: '+880 1xxx-xxxxxx' },
-    { name: 'Shunamganj', address: 'City Center, Shunamganj', phone: '+880 1xxx-xxxxxx' },
-    { name: "Cox's Bazar", address: 'Beach Road, Cox\'s Bazar', phone: '+880 1xxx-xxxxxx' },
+    { name: 'Dhaka (Head Branch)', address: 'Kalabagan, Dhaka', phone: '01777-449977' },
+    { name: 'Narsingdi', address: 'Narsingdi', phone: '01766580061' },
+    { name: 'Kishoreganj', address: 'Kishoreganj', phone: '01629042736' },
+    { name: 'Chattogram', address: 'Chattogram', phone: '01616481322' },
+    { name: 'Sylhet', address: 'Sylhet', phone: '01952797980' },
+    { name: "Cox's Bazar", address: "Cox's Bazar", phone: '01826530015' },
 ];
 
 const Branches = () => {
